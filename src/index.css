@@ -117,10 +117,31 @@ h2 em { color: var(--color-accent); font-weight: 400; }
 .signature { display: block; margin-top: 36px; color: var(--color-accent); font-family: "Marcellus", serif; font-size: 21px; }
 
 /* Roles */
-.roles-section { background: var(--color-surface); }
-.roles-heading { max-width: 820px; margin-bottom: 78px; }
-.roles-heading > p:last-child { max-width: 600px; font-size: 17px; }
-.role-list { display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(24px, 3.5vw, 56px); align-items: start; }
+
+/* Roles */
+.roles-section {
+  background: var(--color-surface);
+}
+
+.roles-heading {
+  max-width: 820px;
+  margin: 0 auto 78px;
+  text-align: center;
+}
+
+.roles-heading > p:last-child {
+  max-width: 600px;
+  margin-inline: auto;
+  font-size: 17px;
+}
+
+.role-list {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: clamp(24px, 3.5vw, 56px);
+  align-items: start;
+}
+
 .role-card { grid-column: span 6; }
 .role-card-3 { grid-column: 4 / span 6; }
 .role-card a { display: block; }
