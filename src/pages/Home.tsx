@@ -26,7 +26,7 @@ export default function Home() {
           </motion.div>
         </div>
         <motion.div className="hero-media" initial={reduceMotion ? false : { clipPath: "inset(100% 0 0 0)" }} animate={{ clipPath: "inset(0% 0 0 0)" }} transition={{ duration: 1, delay: .25, ease: [0.16, 1, 0.3, 1] }}>
-          <motion.img src="/images/family-cooking.webp" alt="A family enjoying time together in their kitchen" initial={{ scale: 1.12 }} animate={{ scale: 1 }} transition={{ duration: 1.25, delay: .25 }} />
+          <motion.img src="/images/IMG-20261024-WAO009.jpg" alt="A family enjoying time together in their kitchen" initial={{ scale: 1.12 }} animate={{ scale: 1 }} transition={{ duration: 1.25, delay: .25 }} />
           <div className="hero-photo-note"><HeartHandshake /><span>Respect, care and a place<br />on the household team.</span></div>
         </motion.div>
         <a href="#welcome" className="scroll-cue" aria-label="Scroll to welcome section"><span>Discover</span><ArrowDown /></a>
@@ -46,10 +46,10 @@ export default function Home() {
         </Reveal>
         <div className="about-home-media" aria-label="Life at Frank Whiston House">
           <Reveal className="about-photo about-photo-main">
-            <img src="/images/family-homecoming.webp" alt="A family walking towards their home" loading="lazy" />
+            <img src="/images/IMG-20261024-WA0011.jpg" alt="A family walking towards their home" loading="lazy" />
           </Reveal>
           <Reveal className="about-photo about-photo-small" delay={.12}>
-            <img src="/images/housekeeping-living-room.webp" alt="A well-kept family living room" loading="lazy" />
+            <img src="/images/file_00000000a058824684f59b72aefc6af4.png" alt="A well-kept family living room" loading="lazy" />
           </Reveal>
           <Reveal className="about-home-note" delay={.2}>
             <span>A warm, organised home where everyone is treated with dignity.</span>
