@@ -26,7 +26,7 @@ export default function Home() {
           </motion.div>
         </div>
         <motion.div className="hero-media" initial={reduceMotion ? false : { clipPath: "inset(100% 0 0 0)" }} animate={{ clipPath: "inset(0% 0 0 0)" }} transition={{ duration: 1, delay: .25, ease: [0.16, 1, 0.3, 1] }}>
-          <motion.img src="/images/IMG-20261024-WAO009.jpg" alt="A family enjoying time together in their kitchen" initial={{ scale: 1.12 }} animate={{ scale: 1 }} transition={{ duration: 1.25, delay: .25 }} />
+          <motion.img src="/images/IMG-20261024-WA0006.jpg" alt="A family enjoying time together in their kitchen" initial={{ scale: 1.12 }} animate={{ scale: 1 }} transition={{ duration: 1.25, delay: .25 }} />
           <div className="hero-photo-note"><HeartHandshake /><span>Respect, care and a place<br />on the household team.</span></div>
         </motion.div>
         <a href="#welcome" className="scroll-cue" aria-label="Scroll to welcome section"><span>Discover</span><ArrowDown /></a>
