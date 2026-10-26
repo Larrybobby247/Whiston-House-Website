@@ -129,8 +129,8 @@ export const gallery = [
   { src: "/images/housekeeping-living-room.webp", alt: "Housekeepers caring for a bright living room", label: "A well-kept home" },
   { src: "/images/family-driver.webp", alt: "A private driver speaking with a passenger", label: "Family journeys" },
   { src: "/images/nanny-playtime.webp", alt: "A caregiver and child playing at home", label: "Learning through play" },
-  { src: "/images/family-cooking.webp", alt: "A family preparing food together", label: "Everyday routines" },
+  { src: "/images/IMG-20261024-WA0006.jpg", alt: "A family preparing food together", label: "Everyday routines" },
   { src: "/images/housekeeping-details.webp", alt: "A housekeeper cleaning a living room table", label: "Attention to detail" },
   { src: "/images/driver-smile.webp", alt: "A professional driver ready for a journey", label: "Ready for the road" },
-  { src: "/images/family-homecoming.webp", alt: "A family walking towards their home", label: "At the heart of home" },
+  { src: "/images/IMG-20261024-WA0011.jpg", alt: "A family walking towards their home", label: "At the heart of home" },
 ];
