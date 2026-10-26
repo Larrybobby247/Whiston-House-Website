@@ -126,9 +126,9 @@ export const roleFaqs: Record<RoleKey, { q: string; a: string }[]> = {
 
 export const gallery = [
   { src: "/images/nanny-reading.webp", alt: "A caregiver reading with two children", label: "Story time" },
-  { src: "/images/housekeeping-living-room.webp", alt: "Housekeepers caring for a bright living room", label: "A well-kept home" },
-  { src: "/images/family-driver.webp", alt: "A private driver speaking with a passenger", label: "Family journeys" },
-  { src: "/images/nanny-playtime.webp", alt: "A caregiver and child playing at home", label: "Learning through play" },
+  { src: "/images/file_00000000a058824684f59b72aefc6af4.png", alt: "Housekeepers caring for a bright living room", label: "A well-kept home" },
+  { src: "/images/IMG-20261024-WA0010.jpg", alt: "A private driver speaking with a passenger", label: "Family journeys" },
+  { src: "/images/IMG-20261024-WA0004.jpg", alt: "A caregiver and child playing at home", label: "Learning through play" },
   { src: "/images/IMG-20261024-WA0006.jpg", alt: "A family preparing food together", label: "Everyday routines" },
   { src: "/images/housekeeping-details.webp", alt: "A housekeeper cleaning a living room table", label: "Attention to detail" },
   { src: "/images/driver-smile.webp", alt: "A professional driver ready for a journey", label: "Ready for the road" },
