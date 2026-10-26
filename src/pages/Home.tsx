@@ -32,6 +32,31 @@ export default function Home() {
         <a href="#welcome" className="scroll-cue" aria-label="Scroll to welcome section"><span>Discover</span><ArrowDown /></a>
       </section>
 
+      <section className="about-home section-pad" aria-labelledby="about-home-title">
+        <Reveal className="about-home-copy">
+          <p className="eyebrow">About the home</p>
+          <h2 id="about-home-title">Frank Whiston House.</h2>
+          <p>Frank Whiston House is a private family household built around trust, care and dependable daily routines. The home welcomes kind, honest and experienced people who take pride in supporting children, shared spaces and family journeys.</p>
+          <p>Each position is part of one respectful household team, with clear working hours, comfortable accommodation and time set aside to rest.</p>
+          <div className="about-home-points" aria-label="Household values">
+            <span>Respect</span>
+            <span>Care</span>
+            <span>Trust</span>
+          </div>
+        </Reveal>
+        <div className="about-home-media" aria-label="Life at Frank Whiston House">
+          <Reveal className="about-photo about-photo-main">
+            <img src="/images/family-homecoming.webp" alt="A family walking towards their home" loading="lazy" />
+          </Reveal>
+          <Reveal className="about-photo about-photo-small" delay={.12}>
+            <img src="/images/housekeeping-living-room.webp" alt="A well-kept family living room" loading="lazy" />
+          </Reveal>
+          <Reveal className="about-home-note" delay={.2}>
+            <span>A warm, organised home where everyone is treated with dignity.</span>
+          </Reveal>
+        </div>
+      </section>
+
       <section className="welcome-section section-pad" id="welcome">
         <Reveal className="welcome-lead"><p className="eyebrow">A valued part of the family</p><h2>You have nothing<br />to worry about.</h2></Reveal>
         <Reveal className="welcome-copy" delay={.1}>
