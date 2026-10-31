@@ -13,7 +13,7 @@ import { Reveal } from "./Reveal";
 
 // Replace with your WhatsApp number.
 // Use international format without + or leading zero.
-const WHATSAPP_NUMBER = "2348012345678";
+const WHATSAPP_NUMBER = "447402405471";
 
 const defaults: ApplicationInput = {
   fullName: "",
