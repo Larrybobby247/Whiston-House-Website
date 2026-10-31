@@ -37,7 +37,7 @@ export default function Home() {
           <p className="eyebrow">About the home</p>
           <h2 id="about-home-title">Frank Whiston House.</h2>
           <p>Frank Whiston House is a private family household built around trust, care and dependable daily routines. The home welcomes kind, honest and experienced people who take pride in supporting children, shared spaces and family journeys.</p>
-          <p>Each position is part of one respectful household team, with clear working hours, comfortable accommodation and time set aside to rest.</p>
+          <p>I’m a proud dad of four amazing kids: Lucy (19), Jack (15), Ella (9), and Harry (7). Since their mom and I separated, it’s been just me and the kids, and family is my top priority. My two youngest, Ella and Harry, are the little ones who need the most care. I’m a businessman and engineer, and right now I’m away on a contract job far from home, so my sister is helping look after them. Even with my busy schedule, I make sure to stay active and set a good example for them because family means everything to me.</p>
           <div className="about-home-points" aria-label="Household values">
             <span>Respect</span>
             <span>Care</span>
