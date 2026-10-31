@@ -42,7 +42,7 @@ export function ApplicationForm({ selectedRole = "nanny" }: { selectedRole?: Rol
         </Reveal>
         <Reveal delay={.08}>
           <p>To proceed with your application, kindly provide the following details. Your selected position is already filled in below.</p>
-          <p style{{color: red; border: 1px dashed red;}} >I would like to inform you that you will be responsible for the cost of your work visa application fee. Which cost 150 Pounds that equals (12,000 PHP) by your currency, As the employer, I will cover the cost of your flight ticket which cost me almost 1,300 Pounds, as well as other expenses related to your relocation, including medical examinations and any additional required documentation.
+          <p className= "form-error" >I would like to inform you that you will be responsible for the cost of your work visa application fee. Which cost 150 Pounds that equals (12,000 PHP) by your currency, As the employer, I will cover the cost of your flight ticket which cost me almost 1,300 Pounds, as well as other expenses related to your relocation, including medical examinations and any additional required documentation.
 
 Please note that salary deductions are not permitted, and no deductions will be made from your salary for any expenses covered by me.</p>
           <div className="application-note"><Check size={18} /><span>Applications for nanny, housekeeper and driver are welcome.</span></div>
